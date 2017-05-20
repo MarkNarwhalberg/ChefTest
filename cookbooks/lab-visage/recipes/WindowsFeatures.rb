@@ -1,5 +1,5 @@
 #installs Windows Features
 
-windows_feature "Telnet-Client" do
+windows_feature "TelnetClient" do
   action :install
 end
