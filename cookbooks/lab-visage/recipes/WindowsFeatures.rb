@@ -4,16 +4,6 @@ windows_feature "TelnetClient" do
   action :install
 end
 
-windows_feature "ADCertificateServicesManagementTools" do
-	action :install
-	all true
-end
-
-windows_feature "ADCertificateServicesRole" do
-	action :install
-	all true
-end
-
 windows_feature "Application-Server" do
 	action :install
 	all true
